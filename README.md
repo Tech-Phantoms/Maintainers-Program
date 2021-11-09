@@ -20,6 +20,15 @@ Applications for Maintainers Program 2021 is now open from 15 November to 1 Dece
 
 ### Project Proposal 
 
+This is where you will talk about your project idea and give us a insight about what your project is aiming to solve. You can follow any pattern you want but we are looking for these 
+- General Project overview
+    - Problem Statement 
+    - How your project is soving it.
+    - Scope of the project. 
+    - Tech Stack you are using 
+- Detailed roadmap for the next 3 months. 
+
+
 
 ---
 
