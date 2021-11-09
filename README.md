@@ -23,21 +23,13 @@ Applications for Maintainers Program 2021 is now open from 15 November to 1 Dece
 
 ---
 
-## Table of Contents 
-- [Overview](#overview)
-- [Application Process](#application-process)
 
 
-## Overview 
+
+## Tech Phantoms Maintainers Program 
 To make a Tech Phantoms community more fun and interactive we are bringing you our Maintaines Program. Where you can start or bring your project in our TechPhantoms ORG and we will help you grow and maintainer your project. If this sounds fun or something that you are intrested here is how we will help you as a maintainer and your project grow. 
 
 - We will host weekly live sessions where we will invite you maintaines to talk about your project and what you are building. This will help the new contributers closer to the project. 
 - We will maintain different project board to help new contributors find the right issue for them. 
 - Also we will showcase all the projects in our website and talk about the awesome maintainers so that people get to know about them. 
 
-
-## Application Process
-For now we are just doing a dry run and so this is not a full scale applications, we will only select 5 projects for now. 
-
-### To Apply Follow These Steps
-- Go to [discussion]()
