@@ -29,6 +29,7 @@ This is where you will talk about your project idea and give us a insight about 
 - Detailed roadmap for the next 3 months. 
 
 
+> 📢 Know more about [Tech Phantoms Maintainers Program](#tech-phantoms-maintainers-program).
 
 ---
 
@@ -42,3 +43,14 @@ To make a Tech Phantoms community more fun and interactive we are bringing you o
 - We will maintain different project board to help new contributors find the right issue for them. 
 - Also we will showcase all the projects in our website and talk about the awesome maintainers so that people get to know about them. 
 
+### Some common FAQs
+
+#### Why would I open a project under Tech Phantoms?
+
+Firstly when you open a project under Tech Phantoms you retain all the rights of your project. As it is open-source anyone can use your code for free. But you get to manage and take decisions for your project, Also you can transfer back your repository at any time, you also manage your sponsorship.
+
+Tech Phantoms staff helps you bring new potential contributors to your issue, not disclosing how we do that, we have something on our mind wink . We host weekly youtube live sessions where we bring you as a maintainer to talk about your project, its roadmap and how can the first-time contributers get started. Your project grows and you get an awesome community feeling.
+
+#### What if I create a project then I don't maintain it?
+
+No worries, we won't ever ask any maintainer to take away their project the development will be at your pace. We will create an automatic system where if your project is actively maintained you will have better support.
