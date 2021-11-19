@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/Tech-Phantoms/community/main/assets/banner1.png" width="80%" />
+<img src="https://user-images.githubusercontent.com/53480076/142567415-34f23bc6-6735-4508-8c45-8d251325e424.png" width="80%" />
 
 <br>
 <h3>Tech Phantoms Maintainers Program</h3>
