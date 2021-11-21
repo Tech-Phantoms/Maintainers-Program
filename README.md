@@ -40,7 +40,7 @@ To make a Tech Phantoms community more fun and interactive we are bringing you o
 - We will maintain different project board to help new contributors find the right issue for them. 
 - We will showcase all the projects in our website and talk about the awesome maintainers so that people get to know about them. 
 
-### ❓ FAQ
+### ❓ FAQ ❓
 
 #### 🚪 Why should I open a project under Tech Phantoms?
 
