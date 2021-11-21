@@ -8,12 +8,12 @@
 
 ## Apply for Tech Phantoms Maintainers Program 2021 🎉 
 
-Applications for Maintainers Program 2021 is now open from 15 November to 1 December. 
+Applications for Maintainers Program 2021 is open from 15 November to 1 December. 
 
 ## 🤔 How can I apply?
 
-- Create a [new Discussion](https://github.com/Tech-Phantoms/Maintainers-Program/discussions/new?category=application) in Application category to submit you application for **Maintainers Program 2021**. 
-- Your Application will consist of two parts 
+- Create a [new discussion](https://github.com/Tech-Phantoms/Maintainers-Program/discussions/new?category=application) in the Application category to submit your application for **Maintainers Program 2021**.
+- Your Application will consist of two parts
     - **About Me** -  This where you will introduce yourself and provide some projects you have worked on. Don't forget to include your social links.
     - **Project Proposal** - This is where you will provide the Doogle docs link of the project proposal. You'll have create a Google docs and send the link to `techphantoms.20@gmail.com`.
 
@@ -22,11 +22,11 @@ Applications for Maintainers Program 2021 is now open from 15 November to 1 Dece
 This is where you will talk about your project idea and give us a insight about what your project is aiming to solve. You can follow any pattern you want but we are looking for these.
 
 - General Project overview
-  - Problem Statement 
+  - Problem Statement.
   - How your project is soving it.
-  - Scope of the project. 
-  - Tech Stack you are using 
-- Detailed roadmap for the next 3 months. 
+  - Scope of the project.
+  - Tech Stack you are using.
+- Detailed roadmap for the next 3 months.
 
 > 📢 Know more about [Tech Phantoms Maintainers Program](#tech-phantoms-maintainers-program).
 
