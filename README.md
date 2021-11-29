@@ -1,8 +1,9 @@
+
 <div align="center">
+<h3>Tech Phantoms Maintainers Program</h3><br/>
 <img src="https://user-images.githubusercontent.com/53480076/142567415-34f23bc6-6735-4508-8c45-8d251325e424.png" width="80%" />
 
-<br>
-<h3>Tech Phantoms Maintainers Program</h3>
+
 <h1></h1>
 </div>
 
