@@ -1,4 +1,3 @@
-
 <div align="center">
 <h3>Tech Phantoms Maintainers Program</h3><br/>
 <img src="https://user-images.githubusercontent.com/53480076/142567415-34f23bc6-6735-4508-8c45-8d251325e424.png" width="80%" />
@@ -16,7 +15,7 @@ Applications for Maintainers Program 2021 is open from 15 November to 1 December
 - Create a [new discussion](https://github.com/Tech-Phantoms/Maintainers-Program/discussions/new?category=application) in the Application category to submit your application for **Maintainers Program 2021**.
 - Your Application will consist of two parts
     - **About Me** -  This where you will introduce yourself and provide some projects you have worked on. Don't forget to include your social links.
-    - **Project Proposal** - This is where you will provide the Doogle docs link of the project proposal. You'll have create a Google docs and send the link to `techphantoms.20@gmail.com`.
+    - **Project Proposal** - This is where you will provide the Doogle docs link of the project proposal. You'll have create a Google docs and send the link to [techphantoms.20@gmail.com](mailto:techphantoms.20@gmail.com).
 
 ## 🚀 Project Proposal 
 
@@ -51,4 +50,4 @@ Tech Phantoms staff helps you bring new potential contributors to your issue, no
 
 #### 🚫 What if I create a project and I stop maintaining?
 
-No worries, we won't ever ask any maintainer to take away their project, the development will be at your pace. We will create an automatic system where if your project is actively maintained you will have better support.
+A. No worries, we won't ever ask any maintainer to take away their project, the development will be at your pace. We will create an automatic system where if your project is actively maintained you will have better support.
