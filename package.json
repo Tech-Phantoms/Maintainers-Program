@@ -2,7 +2,6 @@
   "name": "maintainers-program",
   "version": "1.0.0",
   "description": "<div align=\"center\">\r <h3>Tech Phantoms Maintainers Program</h3><br/>\r <img src=\"https://user-images.githubusercontent.com/53480076/142567415-34f23bc6-6735-4508-8c45-8d251325e424.png\" width=\"80%\" />",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
@@ -10,13 +9,10 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tech-Phantoms/Maintainers-Program.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": "git+https://github.com/Tech-Phantoms/Maintainers-Program.git",
+  "keywords": ["tech-phantoms", "maintainers", "vercel", "nextjs", "git", "github"],
+  "author": "Tech Phantoms",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/Tech-Phantoms/Maintainers-Program/issues"
   },
@@ -33,5 +29,6 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "private": false
 }
