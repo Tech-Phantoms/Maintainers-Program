@@ -1,34 +1,56 @@
-import Axios from 'axios';
+import Airtable, {Base} from 'airtable';
 
-class ApiCaller {
-    private readonly base_url = '"https://api.airtable.com/v0/'
-    private config: { api_key: string, base_id: string };
-    constructor(api_key: string, base_id: string) {
-        this.config.api_key = api_key;
-        this.config.base_id = base_id;
+export interface Maintainer {
+    name: string,
+    socials: {
+        github?: string,
+        email?: string
     }
-    async fetch() {
-        return await Axios({
-            url: this.base_url + `${this.config.base_id}/Table%201?view=Grid%20view`,
-            method: 'GET',
-            headers: {
-                Authorization: `Bearer ${this.config.api_key}`
-            }
-        })
-    }
+    profile_pic: string
 }
 
-export class AirtableAdapter extends ApiCaller {
-    constructor(api_key: string, base_id: string) {
-        super(api_key, base_id);
+export interface Project {
+    id: string,
+    name: string,
+    project_link: string,
+    maintainer: Maintainer
+}
+
+export class AirtableAdapter{
+    private readonly base: Base;
+    constructor(api_key: string, base_id: string){
+        this.base = new Airtable({apiKey: api_key}).base(base_id);
     }
 
-    async maintainers(): Promise<{ data?: any, error?: Error }> {
-        try {
-            const { data, status } = await this.fetch();
-            return { data };
-        } catch (error) {
-            return { error };
+    async projects(){
+        const projects: Array<Project> = [];
+        const records = await this.base('Projects').select({
+            view: 'Grid view'
+        }).all();
+
+        for (const record of records) {
+            const maintainer: Maintainer = await this.getMaintainer(record.get('Maintainers')[0]);
+            projects.push({
+                id: record.getId(),
+                name: record.get('Name') as string,
+                project_link: record.get('Project Link') as string,
+                maintainer
+            });
         }
+
+        return projects;
+    }
+
+    private async getMaintainer(id: string): Promise<Maintainer>{
+        const _ = await this.base('Maintainers').find(id);
+        const maintainer: Maintainer = {
+            name: _.get('Name') as string,
+            socials: {
+                email: _.get('Email') as string,
+                github: _.get('Github') as string
+            },
+            profile_pic: _.get('Profile Picture')[0].url
+        }
+        return maintainer
     }
 }
