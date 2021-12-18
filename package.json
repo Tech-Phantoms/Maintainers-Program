@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Tech-Phantoms/Maintainers-Program#readme",
   "dependencies": {
+    "@asyncapi/react-component": "^0.24.19",
     "airtable": "^0.11.1",
     "axios": "^0.24.0",
     "next": "^12.0.7",
