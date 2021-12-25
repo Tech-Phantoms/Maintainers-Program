@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/apidoc.jsx"  ],
   "exclude": [
     "node_modules"
   ]

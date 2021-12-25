@@ -1,23 +1,47 @@
 asyncapi: '2.1.0'
 info:
-  title: TechPhantoms Maintainer's Program
+  title: TechPhantoms Maintainer's Program API
   version: '0.0.1'
+id: 'https://github.com/Tech-Phantoms/Maintainers-Program'
+servers:
+  development:
+    url: 'https://maintainers-program.vercel.app/api'
+    description: 'API url for AsyncAPI Maintainers Program'
+    protocol: HTTP    
+defaultContentType: application/json
 channels:
   /projects:
     subscribe:
-      payload:
-        type: object:
-        properties:
-          id: string
-          name: string
-          project_link: string
-          maintainer:
-            type: object
-            properties:
-              name: string
-              socials:
-                type: object
-                properties:
-                  email: string
-                  github: string
-              profile_pic: string
+      message:
+        payload:
+          $ref: '#/components/schemas/Project'
+components: 
+  schemas:
+    Project: 
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        project_link:
+          type: string
+        maintainers:
+          $ref: '#/components/schemas/Maintainer'
+    Maintainer:
+      type: object
+      properties:
+        name:
+          type: string
+        socials:
+          type: object
+          properties:
+            email:
+              type: string
+              format: email
+            github:
+              type: string
+        profile_pic:
+          type: string
+
+        

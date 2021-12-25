@@ -10,7 +10,14 @@
     "lint": "next lint"
   },
   "repository": "git+https://github.com/Tech-Phantoms/Maintainers-Program.git",
-  "keywords": ["tech-phantoms", "maintainers", "vercel", "nextjs", "git", "github"],
+  "keywords": [
+    "tech-phantoms",
+    "maintainers",
+    "vercel",
+    "nextjs",
+    "git",
+    "github"
+  ],
   "author": "Tech Phantoms",
   "license": "Apache-2.0",
   "bugs": {
@@ -19,6 +26,7 @@
   "homepage": "https://github.com/Tech-Phantoms/Maintainers-Program#readme",
   "dependencies": {
     "@asyncapi/react-component": "^0.24.19",
+    "@asyncapi/web-component": "^0.24.19",
     "airtable": "^0.11.1",
     "axios": "^0.24.0",
     "next": "^12.0.7",
