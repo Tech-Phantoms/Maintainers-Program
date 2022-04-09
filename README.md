@@ -34,7 +34,7 @@ This is where you will talk about your project idea and give us a insight about 
 
 ## 📜 Additional information
 
-To make a Tech Phantoms community more fun and interactive we are bringing you our Maintainers Program where you can start or bring your project to Tech Phantoms. We will help you grow and maintain your project. If this sounds fun or something that you are intrested on, here is how we will help you as a maintainer and help your project grow. 
+To make a Tech Phantoms community more fun and interactive we are bringing you our Maintainers Program where you can start or bring your project to Tech Phantoms. We will help you grow and maintain your project. If this sounds fun or something that you are intrested in, here is how we will help you as a maintainer and help your project grow. 
 
 - We will host weekly live sessions where we will invite you (the maintainers) to talk about your project and what you are building. This will help the new contributors get closer to the project. 
 - We will maintain different project board to help new contributors find the right issue for them. 
@@ -46,7 +46,7 @@ To make a Tech Phantoms community more fun and interactive we are bringing you o
 
 A. Firstly, when you open a project under Tech Phantoms you retain all the rights of your project. As it is open-source anyone can use your code for free. However, you need to manage and take decisions for your project. You can transfer back your repository to your account at any time. You also have to manage your sponsorship. 
 
-Tech Phantoms staff helps you bring new potential contributors to your issue, not disclosing how we do that, we have something on our mind. We will host weekly YouTube live sessions where we bring you as a maintainer to talk about your project, its roadmap, and how can the first-time contributors get started. Your project will grows and you will get an awesome community feeling. 🎉
+Tech Phantoms staff helps you bring new potential contributors to your issues, not disclosing how we do that, we have something on our mind. We will host weekly YouTube live sessions where we bring you as a maintainer to talk about your project, its roadmap, and how can the first-time contributors get started. Your project will grows and you will get an awesome community feeling. 🎉
 
 #### 🚫 What if I create a project and I stop maintaining?
 
